@@ -20,8 +20,9 @@ public class Tugas216 {
             total += harga[i];
             sc.nextLine();
         }
-        for (int i = 0; i < jumlah.length; i++) {
-            System.out.println(jumlah[i] + " : Rp" + harga[i]);
+        for (int i = 0; i < length; i++) {
+            System.out.println("Daftar Pesanan :");
+            System.out.println("- " + jumlah[i] + " : Rp" + harga[i]);
         }
         System.out.println("Total biaya : Rp" + total);
     }
